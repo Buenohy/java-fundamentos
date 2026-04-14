@@ -2,11 +2,11 @@ package je01_sintaxe_semantica;
 
 public class Conta {
   //variavel da classe conta
-  double saldo=10.0
+  double saldo=10.0;
 
     public void sacar(Double valor) {
     //variavel do método
-    double novoSaldo = saldo -valor
+    double novoSaldo = saldo -valor;
     }
     public void imprimirSaldo() {
       //disponível em toda classe
