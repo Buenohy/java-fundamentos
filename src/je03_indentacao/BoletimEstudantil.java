@@ -1,7 +1,7 @@
 package je03_indentacao;
 
 public class BoletimEstudantil {
-  public static void main(String[] args) {
+  static void main(String[] args) {
     int mediaFinal = 9;
     if (mediaFinal<6) {
       System.out.println("REPROVADO");
